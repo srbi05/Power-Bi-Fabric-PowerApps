@@ -1,0 +1,78 @@
+{
+  "name": "GlobalBank Corp",
+  "dataColors": [
+    "#1F4E79",
+    "#C9A42A",
+    "#4A7BA6",
+    "#E0C868",
+    "#0D2E4D",
+    "#8A6D1A",
+    "#7FA6C9",
+    "#F0DE9E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F1F1F",
+  "tableAccent": "#1F4E79",
+  "good": "#1D9E75",
+  "neutral": "#C9A42A",
+  "bad": "#D85A30",
+  "maximum": "#1F4E79",
+  "center": "#C9A42A",
+  "minimum": "#FFFFFF",
+  "textClasses": {
+    "callout": { "fontSize": 24, "fontFace": "Arial", "color": "#1F4E79" },
+    "title": { "fontSize": 14, "fontFace": "Arial", "color": "#1F4E79" },
+    "header": { "fontSize": 13, "fontFace": "Arial" },
+    "label": { "fontSize": 11, "fontFace": "Arial" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "general": [{ "responsive": true }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": { "solid": { "color": "#1F4E79" } }, "fontSize": 24 }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#5F5E5A" } }, "fontSize": 11 }
+        ],
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#F4F1E8" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#C9A42A" } }, "radius": 8 }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#F4F1E8" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#C9A42A" } }, "radius": 8 }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#1F4E79" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    }
+  }
+}
